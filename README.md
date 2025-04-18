@@ -13,7 +13,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 <br>1. Extract tinycore files into folder:
 <br>**mkdir extracted_iso**
 <br>**sudo mount -o loop tinycore.iso /mnt**
-<br>**cp -r /mnt/* extracted_iso/**
+<br>**cp -r /mnt/* extracted_iso/ **
 <br>**sudo umount /mnt**
 <br>2. Put your Python script in extracted_iso/opt/myscript.py
 <br>3. Create or edit **extracted_iso/opt/bootlocal.sh** to run your script at boot:
